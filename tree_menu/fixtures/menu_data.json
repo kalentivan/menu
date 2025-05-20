@@ -1,0 +1,372 @@
+[
+    {
+        "model": "tree_menu.menu",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a10",
+        "fields": {
+            "name": "Итальянская кухня",
+            "slug": "italyanskaya-kuhnya"
+        }
+    },
+    {
+        "model": "tree_menu.menu",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a11",
+        "fields": {
+            "name": "Французская кухня",
+            "slug": "frantsuzskaya-kuhnya"
+        }
+    },
+    {
+        "model": "tree_menu.menu",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a12",
+        "fields": {
+            "name": "Японская кухня",
+            "slug": "yaponskaya-kuhnya"
+        }
+    },
+    {
+        "model": "tree_menu.menu",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a13",
+        "fields": {
+            "name": "Русская кухня",
+            "slug": "russkaya-kuhnya"
+        }
+    },
+    {
+        "model": "tree_menu.menu",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a14",
+        "fields": {
+            "name": "Десерты",
+            "slug": "desertyi"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a20",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a10",
+            "parent": null,
+            "title": "Паста",
+            "url": "pasta"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a21",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a10",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a20",
+            "title": "Карбонара",
+            "url": "carbonara"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a22",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a10",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a20",
+            "title": "Болоньезе",
+            "url": "bolognese"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a23",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a10",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a22",
+            "title": "Болоньезе с телятиной",
+            "url": "bolognese_s_telyatinoy"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a24",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a10",
+            "parent": null,
+            "title": "Пицца",
+            "url": "pizza"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a25",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a10",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a24",
+            "title": "Маргарита",
+            "url": "margarita"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a26",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a10",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a24",
+            "title": "Пепперони",
+            "url": "pepperoni"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a27",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a10",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a26",
+            "title": "Пепперони острая",
+            "url": "pepperoni_ostraya"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a30",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a11",
+            "parent": null,
+            "title": "Супы",
+            "url": "supy_frantsuzskie"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a31",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a11",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a30",
+            "title": "Луковый суп",
+            "url": "lukoviy_sup"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a32",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a11",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a30",
+            "title": "Буйабес",
+            "url": "buiabes"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a33",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a11",
+            "parent": null,
+            "title": "Основные блюда",
+            "url": "osnovnye_frantsuzskie"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a34",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a11",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a33",
+            "title": "Рататуй",
+            "url": "ratatui"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a35",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a11",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a33",
+            "title": "Беф Бургиньон",
+            "url": "bef_burginon"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a40",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a12",
+            "parent": null,
+            "title": "Суши и роллы",
+            "url": "sushi_rolls"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a41",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a12",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a40",
+            "title": "Калифорния",
+            "url": "kaliforniya"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a42",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a12",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a40",
+            "title": "Филадельфия",
+            "url": "filadelfiya"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a43",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a12",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a42",
+            "title": "Филадельфия с лососем",
+            "url": "filadelfiya_s_lososem"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a44",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a12",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a42",
+            "title": "Филадельфия с тунцом",
+            "url": "filadelfiya_s_tuntsom"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a45",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a12",
+            "parent": null,
+            "title": "Рамен",
+            "url": "ramen"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a46",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a12",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a45",
+            "title": "Рамен с курицей",
+            "url": "ramen_s_kuritsey"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a50",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a13",
+            "parent": null,
+            "title": "Пельмени",
+            "url": "pelmeni"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a51",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a13",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a50",
+            "title": "Пельмени с мясом",
+            "url": "pelmeni_s_myasom"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a52",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a13",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a50",
+            "title": "Пельмени с грибами",
+            "url": "pelmeni_s_gribami"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a53",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a13",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a51",
+            "title": "Пельмени с говядиной",
+            "url": "pelmeni_s_govyadinoy"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a54",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a13",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a51",
+            "title": "Пельмени со свининой",
+            "url": "pelmeni_so_svininoy"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a55",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a13",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a53",
+            "title": "Пельмени с говядиной и луком",
+            "url": "pelmeni_s_govyadinoy_i_lukom"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a60",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a14",
+            "parent": null,
+            "title": "Торты",
+            "url": "torty"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a61",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a14",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a60",
+            "title": "Шоколадный торт",
+            "url": "shokoladniy_tort"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a62",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a14",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a60",
+            "title": "Фруктовый торт",
+            "url": "fruktoviy_tort"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a63",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a14",
+            "parent": null,
+            "title": "Мороженое",
+            "url": "morozenoe"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a64",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a14",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a63",
+            "title": "Ванильное мороженое",
+            "url": "vanilnoe_morozenoe"
+        }
+    },
+    {
+        "model": "tree_menu.menuitem",
+        "pk": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a65",
+        "fields": {
+            "menu": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a14",
+            "parent": "0197e4a2-5b3c-4d8a-9f1e-6c3d8e2f4a63",
+            "title": "Шоколадное мороженое",
+            "url": "shokoladnoe_morozenoe"
+        }
+    }
+]

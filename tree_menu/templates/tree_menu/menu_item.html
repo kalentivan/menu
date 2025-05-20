@@ -1,0 +1,20 @@
+<!-- tree_menu/templates/tree_menu/menu_item.html -->
+<li class="menu-item {% if item.url == current_url %}active{% endif %}" data-item-id="{{ item.id }}">
+    <div class="flex items-center">
+        {% if item.children.all %}
+        <button class="toggle-submenu text-xl mr-2">+</button>
+        {% else %}
+        <span class="inline-block w-4 mr-2"></span>
+        {% endif %}
+        <a href="{{ item.absolute_url }}" class="block py-2 px-4 hover:bg-gray-100 cursor-pointer menu-item-title" data-toggle>{{ item.title }}</a>
+    </div>
+    {% if item.children.all %}
+    <ul class="submenu-list hidden">
+        {% for child in item.children.all %}
+        {% with item=child %}
+            {% include "tree_menu/menu_item.html" %}
+        {% endwith %}
+        {% endfor %}
+    </ul>
+    {% endif %}
+</li>

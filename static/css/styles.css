@@ -1,0 +1,81 @@
+.menu-card {
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.menu-card-content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-item.active > .flex > .menu-item-title {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.menu-item-title {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-item-title:hover {
+    color: #007bff;
+}
+
+.submenu-list {
+    margin-left: 20px;
+    display: none; /* Скрываем подменю по умолчанию */
+}
+
+.menu-item.open > .submenu-list {
+    display: block; /* Показываем только прямое подменю, если родитель имеет класс .open */
+}
+
+.close-card {
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 0.2s;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.close-card:hover {
+    color: #ef4444;
+}
+
+.menu-item.open > .submenu-list {
+    display: block;
+}
+
+.submenu-list.hidden {
+    display: none;
+}
+
+.menu-item.active .menu-item-title {
+
+}
+
+.submenu-list.hidden {
+    display: none;
+}
+
+.submenu-list {
+    padding-left: 20px;
+}
+
+.menu-list {
+    padding-left: 0;
+}

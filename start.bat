@@ -1,5 +1,5 @@
 @echo off
-REM Проверка существования виртуального окружения
+
 if exist venv\Scripts\activate.bat (
     echo [INFO] Virtual environment already exists.
 ) else (
